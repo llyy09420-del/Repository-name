@@ -13,10 +13,10 @@ def home():
 def run_web():
     app.run(host='0.0.0.0', port=8080)
 
-# --- OKX API Configuration ---
+# --- OKX API Configuration (Updated with your new keys) ---
 params = {
-    'apiKey': '9a3d6d8a-065c-4d1a-9073-db0ed6473ebd',
-    'secret': 'A6B6C16AC035262F8B840052D9916B7B',
+    'apiKey': '0850a1b5-d861-4874-8d17-cb50d9e6ea19',
+    'secret': '4AD2FC402C6204F1B4489DE2F9053F02',
     'password': 'asdFF124$', 
     'enableRateLimit': True,
     'options': {'defaultType': 'swap'}
@@ -27,7 +27,7 @@ symbol = 'PEPE/USDT:USDT'
 amount = 120000 
 
 def start_bot():
-    print("🚀 Starting PEPE Sniper...")
+    print("🚀 Starting PEPE Sniper with new API keys...")
     while True:
         try:
             # Fetch current ticker
