@@ -15,16 +15,16 @@ def run_web():
 
 # --- OKX API Configuration ---
 params = {
-    'apiKey': '9a3d6d8a-065c-4d1a-9073-db0ed6473ebd',
-    'secret': 'A6B6C16AC035262F8B840052D9916B7B',
-    'password': 'asdFF124$',
+    'apiKey': '9a3d6d8a-065c-4d1a-9073-db0ed6473ebd
+    'secret': 'A6B6C16AC035262F8B840052D9916B7B
+    'password': 'asdFF124$
     'enableRateLimit': True,
     'options': {'defaultType': 'swap'}
 }
 
 exchange = ccxt.okx(params)
 symbol = 'PEPE-USDT-SWAP'
-# Amount set to approximately 1 USD (adjusting for PEPE units)
+# symbol = 'PEPE/USDT:USDT'
 amount = 120000 
 
 def start_bot():
